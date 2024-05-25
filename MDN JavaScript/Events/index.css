@@ -1,0 +1,13 @@
+.hidden {
+  display: none;
+}
+
+.tile {
+  height: 100px;
+  width: 25%;
+  float: left;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}

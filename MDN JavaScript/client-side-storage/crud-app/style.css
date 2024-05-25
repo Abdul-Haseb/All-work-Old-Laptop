@@ -1,0 +1,33 @@
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+form * {
+  width: 30%;
+  height: 30px;
+  padding: 5px;
+}
+h1 {
+  text-align: center;
+}
+#update {
+  display: none;
+}
+table {
+  border: 1px solid black;
+  padding: 5px 5px;
+  align-items: center;
+  width: 40%;
+}
+table th {
+  border: 1px solid black;
+}
+#table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}

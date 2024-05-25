@@ -1,0 +1,22 @@
+// const apiKey = "IHYvu6Tdu2r18s3OvnO4lHuR4OmOA3Fr";
+// const apiUrl = `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=technology&api-key=${apiKey}`;
+
+// // Making a GET request to the API endpoint
+// fetch(apiUrl)
+//   .then((response) => {
+//     if (!response.ok) {
+//       throw new Error("Network response was not ok");
+//     }
+//     return response.json();
+//   })
+//   .then((data) => {
+//     // Handle the data received from the API
+//     console.log(data);
+//     // Process and display the data as needed
+//   })
+//   .catch((error) => {
+//     // Handle any errors that occurred during the request
+//     console.error("There was a problem with the fetch operation:", error);
+//   });
+
+// Defining a baseURL and key to as part of the request URL
