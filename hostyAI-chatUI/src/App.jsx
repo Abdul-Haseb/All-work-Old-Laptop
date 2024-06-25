@@ -7,7 +7,7 @@ const App = () => {
   const handleMobileSideBar = () => setIfMobile(!ifMobile);
   return (
     <div className="flex w-screen font-Inter">
-      <SideBar ifMobile={ifMobile} />
+      <SideBar ifMobile={ifMobile} setIfMobile={setIfMobile} />
       <ChatSection handleMobileSideBar={handleMobileSideBar} />
     </div>
   );
